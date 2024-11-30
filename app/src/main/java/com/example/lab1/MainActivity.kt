@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val inputText = findViewById<TextInputEditText>(R.id.input_text)
         val checkButton = findViewById<Button>(R.id.button_check)
+        val checkButton = findViewById<Button>(R.id.button_check)
         val resultText = findViewById<TextView>(R.id.result_text)
 
         checkButton.setOnClickListener {
