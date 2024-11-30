@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         val inputText = findViewById<TextInputEditText>(R.id.input_text)
         val checkButton = findViewById<Button>(R.id.button_check)
-        val checkButton = findViewById<Button>(R.id.button_check)
         val resultText = findViewById<TextView>(R.id.result_text)
 
         checkButton.setOnClickListener {
@@ -31,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
             if (char.isUpperCase()) {
                 when (char) {
-                    'L', 'M', 'K', 'D' -> resultText.text = "Это согласные буквы"
+                    'L', 'M', 'K', 'D' -> resultText.text = "Это несогласные буквы"
                     else -> resultText.text = "Возможно, это гласные буквы"
                 }
             } else {
