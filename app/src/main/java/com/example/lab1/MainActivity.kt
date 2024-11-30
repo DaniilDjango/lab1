@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
             if (char.isUpperCase()) {
                 when (char) {
-                    'L', 'M', 'K', 'D' -> resultText.text = "Это несогласные буквы"
+                    'L', 'M', 'K', 'D' -> resultText.text = "Это согласные буквы"
                     else -> resultText.text = "Возможно, это гласные буквы"
                 }
             } else {
