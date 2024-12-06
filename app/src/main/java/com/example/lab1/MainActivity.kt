@@ -28,14 +28,7 @@ class MainActivity : AppCompatActivity() {
 
             val char = input[0]
 
-            if (char.isUpperCase()) {
-                when (char) {
-                    'L', 'M', 'K', 'D' -> resultText.text = "Это согласные буквы"
-                    else -> resultText.text = "Возможно, это гласные буквы"
-                }
-            } else {
-                Toast.makeText(this, "Введите латинскую заглавную букву", Toast.LENGTH_SHORT).show()
-            }
+
         }
     }
 }
